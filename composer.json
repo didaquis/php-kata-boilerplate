@@ -1,0 +1,29 @@
+{
+	"name": "app/php-kata-boilerplate",
+	"description": "Boilerplate project for PHP testing",
+	"type": "Project",
+	"license": "MIT",
+	"authors": [
+	  {
+		"name": "Dídac García"
+	  }
+	],
+	"require": {
+	  "php": "^7.1"
+	},
+	"require-dev": {
+	  "mockery/mockery": "dev-master",
+		"phpunit/phpunit": "7.5.x-dev"
+	},
+	"autoload": {
+		"psr-4": {
+		  "App\\": "src/"
+		}
+	},
+	"autoload-dev": {
+	  "psr-4": {
+		"Tests\\": "tests/"
+	  }
+	},
+	"minimum-stability": "dev"
+  }
