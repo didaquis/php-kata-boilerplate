@@ -4,26 +4,26 @@
 	"type": "Project",
 	"license": "MIT",
 	"authors": [
-	  {
-		"name": "Dídac García"
-	  }
+		{
+			"name": "Dídac García"
+	  	}
 	],
 	"require": {
-	  "php": "^7.1"
+	  	"php": "^7.1"
 	},
 	"require-dev": {
-	  "mockery/mockery": "dev-master",
+	  	"mockery/mockery": "dev-master",
 		"phpunit/phpunit": "7.5.x-dev"
 	},
 	"autoload": {
 		"psr-4": {
-		  "App\\": "src/"
+		  	"App\\": "src/"
 		}
 	},
 	"autoload-dev": {
-	  "psr-4": {
-		"Tests\\": "tests/"
-	  }
+	  	"psr-4": {
+			"Tests\\": "tests/"
+	  	}
 	},
 	"minimum-stability": "dev"
-  }
+}
